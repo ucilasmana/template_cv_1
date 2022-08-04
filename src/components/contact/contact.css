@@ -1,0 +1,94 @@
+.container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%
+}
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact__option {
+    background: #b6e4ff;
+    color: var(--color-btn-primary);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.404);
+    transition: var(--transition);
+}
+
+.contact__option:hover {
+    background: var(--color-dark-transparent);
+    color: #b6e4ff;
+   
+}
+.contact__option .btn-primary{
+    background:var(--color-btn-primary);
+    color: #b6e4ff;
+    border-color: #b6e4ff;
+}
+
+.contact__option .btn-primary:hover {
+    background:var(--color-dark-transparent);
+    border-color:#b6e4ff;
+}
+
+.contact__option-icon{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size:0.8rem;
+}
+/*FORM*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+form .btn-primary {
+    background:var(--color-dark-transparent);
+    color:  var(--color-primary);
+    border-color:  var(--color-primary);
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.363);
+ }
+ 
+ form .btn-primary:hover {
+     background:var(--color-btn-primary);
+     color: var(--color-primary);
+     border-color: var(--color-primary);
+ }
+ ::placeholder{
+    color: white;
+ }
+input, 
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: var(--color-dark-transparent);
+    border: 1px solid #b6e4ff;
+    resize: none;
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.438);
+    color: var(--color-white);
+}
+/*Media Queries - Medium Devices*/
+
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+}
+/*Media Queries - Small Devices*/
+
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: var(--container-width-sm);
+     }
+}
