@@ -10,16 +10,19 @@ const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    
+
+    const setToast=document.getElementById("toast");
+
     emailjs.sendForm('service_nhoc55e', 'template_yukpjua', form.current, 'uDdIt5xCHcgSJVtVp').then((result) => {
 
-      const setToast=document.getElementById("toast");
       setToast.className="show";
-      setTimeout(function(){ setToast.className = setToast.className.replace("show", ""); }, 3000);    
-     },
+      setToast.innerHTML="Your message has been sent";
+           },
      (error) => {
-      console.log(error.text);
+      setToast.className="show";
+      setToast.innerHTML="Your message cannot been sent";
   });
+  setTimeout(function(){ setToast.className = setToast.className.replace("show", ""); }, 3000);    
     e.target.reset();
    };
 
@@ -27,14 +30,14 @@ const Contact = () => {
     <section id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
-      <div id="toast">Your message has been sent</div>
+      <div id="toast"></div>
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>johndoe@gmail.com</h5>
-            <a className='btn btn-primary' href='mailto:uci.lasmana@gmail.com'>sSend a Message</a>
+            <a className='btn btn-primary' href='mailto:john.doe@gmail.com'>Send a Message</a>
           </article>
           <article className='contact__option'>
             <RiMessengerLine className='contact__option-icon'/>
