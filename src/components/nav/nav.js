@@ -18,11 +18,12 @@ const Nav = () => {
           <li><Link  to="about" spy={true}  offset={-100} duration={500} smooth={true}><AiOutlineUser/></Link></li>
           <li><Link  to="experience" offset={-150} spy={true} smooth={true}><BiBook/></Link></li>
           <li><Link  to="services" offset={-150} spy={true} smooth={true}><RiServiceLine/></Link></li>
-          <li><Link  to="portfolio" offset={-200} spy={true} smooth={true}><MdOutlineBusinessCenter/></Link></li>
-          <li><Link  to="testimonial" offset={-250} spy={true} smooth={true}><MdOutlineRateReview/></Link></li>
-          <li><Link  to="contact" offset={-100} spy={true} smooth={true}><BiMessageSquareDetail/></Link></li>
+           <li><Link  to="contact" offset={-100} spy={true} smooth={true}><BiMessageSquareDetail/></Link></li>
           
-      {/*<a href='#' onClick={()=>setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      {/*
+      <li><Link  to="portfolio" offset={-200} spy={true} smooth={true}><MdOutlineBusinessCenter/></Link></li>
+      <li><Link  to="testimonial" offset={-250} spy={true} smooth={true}><MdOutlineRateReview/></Link></li>
+      <a href='#' onClick={()=>setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
       <a href="#about" onClick={()=>setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
       <a href="#services" onClick={()=>setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>

@@ -17,12 +17,15 @@ const Contact = () => {
 
       setToast.className="show";
       setToast.innerHTML="Your message has been sent";
+      setTimeout(function(){ setToast.className = setToast.className.replace("show", ""); }, 3000);    
+
            },
      (error) => {
       setToast.className="show";
       setToast.innerHTML="Your message cannot been sent";
+      setTimeout(function(){ setToast.className = setToast.className.replace("show", ""); }, 3000);    
+
   });
-  setTimeout(function(){ setToast.className = setToast.className.replace("show", ""); }, 3000);    
     e.target.reset();
    };
 
