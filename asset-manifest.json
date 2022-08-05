@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/template_cv_1/static/css/main.7c097675.css",
-    "main.js": "/template_cv_1/static/js/main.f77e3a4c.js",
-    "static/media/cv.pdf": "/template_cv_1/static/media/cv.22860aa8bb783a8f8cbc.pdf",
-    "static/media/4.jpg": "/template_cv_1/static/media/4.a40cc4b11c028f18118d.jpg",
-    "static/media/5.jpg": "/template_cv_1/static/media/5.3c1333783cf4907358e3.jpg",
-    "static/media/1.jpg": "/template_cv_1/static/media/1.755afcf3b269ca9fbc9e.jpg",
-    "static/media/2.jpg": "/template_cv_1/static/media/2.780791d4cb34d2766056.jpg",
-    "static/media/6.jpg": "/template_cv_1/static/media/6.cf768c8ce02cc678e732.jpg",
-    "static/media/3.jpg": "/template_cv_1/static/media/3.af25ac65e9d4f3f92675.jpg",
+    "main.css": "/template_cv_1/static/css/main.87c51ff0.css",
+    "main.js": "/template_cv_1/static/js/main.1a7b2c9b.js",
+    "static/media/portfolio2.jpg": "/template_cv_1/static/media/portfolio2.5b5b5bfa905ffd78130a.jpg",
+    "static/media/portfolio5.jpg": "/template_cv_1/static/media/portfolio5.1a3fdb77f49a3853bd00.jpg",
+    "static/media/portfolio6.jpg": "/template_cv_1/static/media/portfolio6.e652141363fd4bd0f87b.jpg",
     "static/media/profpic2.png": "/template_cv_1/static/media/profpic2.96aa00dc1654f72ba0e1.png",
+    "static/media/portfolio4.jpg": "/template_cv_1/static/media/portfolio4.6ffa8cfcdabce388cc50.jpg",
+    "static/media/portfolio3.jpg": "/template_cv_1/static/media/portfolio3.df38f4712b58a40f9e93.jpg",
+    "static/media/portfolio.png": "/template_cv_1/static/media/portfolio.a375e304adeb561f84ea.png",
     "static/media/aboutpic.jpg": "/template_cv_1/static/media/aboutpic.0162b3e83d0b502f2c92.jpg",
+    "static/media/cv_jd.pdf": "/template_cv_1/static/media/cv_jd.59b020289d024943b681.pdf",
     "static/media/back.jpg": "/template_cv_1/static/media/back.f4db30ed1fb6cb5ec3ad.jpg",
     "static/media/clientpic.png": "/template_cv_1/static/media/clientpic.b1df0cfb7e5cc96fbb86.png",
     "index.html": "/template_cv_1/index.html",
-    "main.7c097675.css.map": "/template_cv_1/static/css/main.7c097675.css.map",
-    "main.f77e3a4c.js.map": "/template_cv_1/static/js/main.f77e3a4c.js.map"
+    "main.87c51ff0.css.map": "/template_cv_1/static/css/main.87c51ff0.css.map",
+    "main.1a7b2c9b.js.map": "/template_cv_1/static/js/main.1a7b2c9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c097675.css",
-    "static/js/main.f77e3a4c.js"
+    "static/css/main.87c51ff0.css",
+    "static/js/main.1a7b2c9b.js"
   ]
 }
