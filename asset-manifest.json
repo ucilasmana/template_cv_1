@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/http//ucilasmana.github.io/template_cv_1/static/css/main.57204a06.css",
+    "main.js": "/http//ucilasmana.github.io/template_cv_1/static/js/main.72624837.js",
+    "static/media/cv.pdf": "/http//ucilasmana.github.io/template_cv_1/static/media/cv.22860aa8bb783a8f8cbc.pdf",
+    "static/media/4.jpg": "/http//ucilasmana.github.io/template_cv_1/static/media/4.a40cc4b11c028f18118d.jpg",
+    "static/media/5.jpg": "/http//ucilasmana.github.io/template_cv_1/static/media/5.3c1333783cf4907358e3.jpg",
+    "static/media/1.jpg": "/http//ucilasmana.github.io/template_cv_1/static/media/1.755afcf3b269ca9fbc9e.jpg",
+    "static/media/2.jpg": "/http//ucilasmana.github.io/template_cv_1/static/media/2.780791d4cb34d2766056.jpg",
+    "static/media/6.jpg": "/http//ucilasmana.github.io/template_cv_1/static/media/6.cf768c8ce02cc678e732.jpg",
+    "static/media/3.jpg": "/http//ucilasmana.github.io/template_cv_1/static/media/3.af25ac65e9d4f3f92675.jpg",
+    "static/media/profpic2.png": "/http//ucilasmana.github.io/template_cv_1/static/media/profpic2.96aa00dc1654f72ba0e1.png",
+    "static/media/aboutpic.jpg": "/http//ucilasmana.github.io/template_cv_1/static/media/aboutpic.0162b3e83d0b502f2c92.jpg",
+    "static/media/back.jpg": "/http//ucilasmana.github.io/template_cv_1/static/media/back.f4db30ed1fb6cb5ec3ad.jpg",
+    "static/media/clientpic.png": "/http//ucilasmana.github.io/template_cv_1/static/media/clientpic.b1df0cfb7e5cc96fbb86.png",
+    "index.html": "/http//ucilasmana.github.io/template_cv_1/index.html",
+    "main.57204a06.css.map": "/http//ucilasmana.github.io/template_cv_1/static/css/main.57204a06.css.map",
+    "main.72624837.js.map": "/http//ucilasmana.github.io/template_cv_1/static/js/main.72624837.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57204a06.css",
+    "static/js/main.72624837.js"
+  ]
+}
