@@ -10,21 +10,21 @@ import "swiper/css/navigation";
 const data = [
   {
     avatar: profpic,
-    name: 'Testimonial 1 dari Client',
+    name: 'Testimonial from Client 1',
     review: 'Loren ipsum dolor sit amet consectetur adipising elit. Loren ipsum dolor sit amet consectetur adipising elit.Loren ipsum dolor sit amet consectetur adipising elit'
   },
   {
     avatar: profpic,
-    name: 'Testimonial 2 dari Client',
+    name: 'Testimonial from Client 2',
     review: 'Loren ipsum dolor sit amet consectetur adipising elit. Loren ipsum dolor sit amet consectetur adipising elit.Loren ipsum dolor sit amet consectetur adipising elit'
   },
   {
     avatar: profpic,
-    name: 'Testimonial 3 dari Client',
+    name: 'Testimonial from Client 3',
     review: 'Loren ipsum dolor sit amet consectetur adipising elit. Loren ipsum dolor sit amet consectetur adipising elit.Loren ipsum dolor sit amet consectetur adipising elit'
   },{
     avatar: profpic,
-    name: 'Testimonial 4 dari Client',
+    name: 'Testimonial from Client 4',
     review: 'Loren ipsum dolor sit amet consectetur adipising elit. Loren ipsum dolor sit amet consectetur adipising elit.Loren ipsum dolor sit amet consectetur adipising elit'
   },
 ]

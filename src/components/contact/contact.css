@@ -76,6 +76,27 @@ textarea {
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.438);
     color: var(--color-white);
 }
+
+/*Toast*/
+#toast {
+    visibility:hidden;
+    min-width: 300px;
+    margin-left: -125px;
+    background-color:rgb(34, 34, 34);
+    color: var(--color-primary);
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 30px;
+    font-size: 17px;
+ }
+ #toast.show {
+    visibility: visible;
+   
+  }  
 /*Media Queries - Medium Devices*/
 
 @media screen and (max-width: 1024px) {

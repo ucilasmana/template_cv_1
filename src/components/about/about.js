@@ -35,14 +35,11 @@ const about = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small> 5 Completed</small>
+              <small> 6 Completed</small>
             </article>
           </div>
           <p>
-            Halo! Saya Uci Lasmana. Saya sudah bekerja selama setahun sebagai seorang
-            Fullstack Developer. Saya sangat menyukai desain, sehingga saya mempelajarinya
-            selama bertahun-tahun untuk menemukan gaya saya sendiri. Saya ingin menjadi seorang 'Artist' 
-            baik di bidang senis maupun di bidang teknologi.
+            Hello! I'm John Doe. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>

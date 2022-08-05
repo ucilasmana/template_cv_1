@@ -1,52 +1,52 @@
 import React from 'react'
 import './portfolio.css'
-import img1 from '../../assets/1.jpg'
-import img2 from '../../assets/2.jpg'
-import img3 from '../../assets/3.jpg'
-import img4 from '../../assets/4.jpg'
-import img5 from '../../assets/5.jpg'
-import img6 from '../../assets/6.jpg'
+import img1 from '../../assets/portfolio.png'
+import img2 from '../../assets/portfolio2.jpg'
+import img3 from '../../assets/portfolio3.jpg'
+import img4 from '../../assets/portfolio4.jpg'
+import img5 from '../../assets/portfolio5.jpg'
+import img6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
     id:1,
     image: img1,
-    title: 'Gambar Untuk Template CV',
+    title: 'Project from Client 1',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id:2,
-    image: img2,
-    title: 'Gambar Untuk Template CV',
+    image: img6,
+    title: 'Project from Client 2',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id:3,
-    image: img3,
-    title: 'Gambar Untuk Template CV',
+    image: img2,
+    title: 'Project from Client 3',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id:4,
     image: img4,
-    title: 'Gambar Untuk Template CV',
+    title: 'Project from Client 4',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id:5,
     image: img5,
-    title: 'Gambar Untuk Template CV',
+    title: 'Project from Client 5',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
   {
     id:6,
-    image: img6,
-    title: 'Gambar Untuk Template CV',
+    image: img3,
+    title: 'Project from Client 6',
     github: 'https://github.com',
     demo: 'https://dribble.com'
   },
