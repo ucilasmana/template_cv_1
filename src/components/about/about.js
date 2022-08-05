@@ -41,7 +41,7 @@ const about = () => {
           <p>
             Halo! Saya Uci Lasmana. Saya sudah bekerja selama setahun sebagai seorang
             Fullstack Developer. Saya sangat menyukai desain, sehingga saya mempelajarinya
-            selama bertahun-tahun untuk menemukan gaya saya tersendiri.Saya ingin menjadi seorang 'Artist' 
+            selama bertahun-tahun untuk menemukan gaya saya sendiri. Saya ingin menjadi seorang 'Artist' 
             baik di bidang senis maupun di bidang teknologi.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

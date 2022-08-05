@@ -1,6 +1,6 @@
 {
   "name": "template_cv_1",
-  "homepage":"https://template-cv-1.herokuapp.com/",
+  "homepage": "https://template-cv-1.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
