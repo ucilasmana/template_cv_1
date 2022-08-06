@@ -1,6 +1,8 @@
 import React from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
+import Portfolio from "../portfolio/portfolio.js"
+import Testimonials from '../testimonials/testimonials';
 
 const services = () => {
   return (
@@ -107,6 +109,10 @@ const services = () => {
         </article>
 
       </div>
+
+      <Portfolio />
+      <Testimonials/>
+
     </section>
   )
 }
